@@ -1,0 +1,106 @@
+
+html,body{
+  margin:0;
+}
+.misc{
+    text-align: center;
+    width: 500px;
+}
+canvas{
+	margin-top: inherit;
+}
+
+#particles-js{
+	position: absolute; top: 0; right: 0; bottom: 0; left: 0;
+}
+body {
+  	background-color: #f2f2f2;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    padding-top: 150px;
+	background-color: #90CAF9;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+  }
+h3, h4, h6 {
+    text-align: center;
+    width: inherit;
+    font-family: "Open Sans";
+    font-weight: 300;
+    color: #333;
+    text-align: center;
+}
+p {
+    margin-bottom: 25px;
+}
+.vinh{
+    text-align: center;
+}
+.centered {
+    text-align: center;
+}
+
+a {
+    word-wrap: break-word;
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #E91E63;
+    opacity: .7;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    margin: 1em 0;
+    padding: 0;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #E91E63;
+    cursor: default;
+    width: 100%;
+}
+
+
+.w {
+	margin-bottom: -900px;
+	z-index: 10;
+	background-color: white;
+}
+.col-md-8 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.tab-content {
+	background-color: white;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-right: 15px;
+}
