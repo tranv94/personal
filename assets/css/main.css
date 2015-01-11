@@ -1,4 +1,8 @@
-
+.funz{
+    text-align: center;
+    font-size: 12px;
+    margin:0 0 0px;
+}
 html,body{
   margin:0;
 }
@@ -38,10 +42,9 @@ h3, h4, h6 {
     color: #333;
     text-align: center;
 }
-p {
-    margin-bottom: 25px;
-}
+
 .vinh{
+    color: #428bca;
     text-align: center;
 }
 .centered {
@@ -57,10 +60,14 @@ a {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-a:hover,
+a:hover{
+    color: #E91E63;
+    opacity: .6;
+    text-decoration: none;
+    outline: 0;
+}
 a:focus {
     color: #E91E63;
-    opacity: .7;
     text-decoration: none;
     outline: 0;
 }

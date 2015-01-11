@@ -3770,6 +3770,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .nav {
+  border-bottom: 1px solid #a0d1fa;
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
@@ -3845,7 +3846,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-tabs {
   margin-top: -12px;
   text-align: center;
-  border-bottom: 1px dotted #D4D4D4;
 }
 
 .nav-tabs > li {
